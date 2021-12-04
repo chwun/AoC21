@@ -5,6 +5,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Day 04 - .NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/04/bin/Debug/net5.0/04.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/04",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
       "name": "Day 03 - .NET Core Launch (console)",
       "type": "coreclr",
       "request": "launch",
