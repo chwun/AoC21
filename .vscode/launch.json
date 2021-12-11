@@ -26,15 +26,23 @@
       "stopAtEntry": false,
       "console": "internalConsole"
     },
-
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Day 1 - Node.js -> Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\01\\src\\main01.ts",
       "outFiles": ["${workspaceFolder}/**/*.js"],
       "cwd": "${workspaceFolder}\\01\\dist"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Day 8 - Node.js -> Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/08/src/main.ts",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "cwd": "${workspaceFolder}/08/dist"
     }
   ]
 }
