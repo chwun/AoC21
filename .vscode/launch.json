@@ -43,6 +43,17 @@
       "program": "${workspaceFolder}/08/src/main.ts",
       "outFiles": ["${workspaceFolder}/**/*.js"],
       "cwd": "${workspaceFolder}/08/dist"
+    },
+    {
+      "name": "Day 09 - .NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/09/bin/Debug/net5.0/09.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/09",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
   ]
 }
