@@ -54,6 +54,17 @@
       "cwd": "${workspaceFolder}/09",
       "stopAtEntry": false,
       "console": "internalConsole"
+    },
+    {
+      "name": "Day 10 - .NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/10/bin/Debug/net5.0/10.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}/10",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
   ]
 }
